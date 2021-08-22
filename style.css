@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .container {
+  width: 70%;
+}
+.header .container .rounds {
+  padding: 30px 0;
+  text-align: center;
+  color: red;
+  font-size: 1.5rem;
+}
+.header .container .results {
+  display: flex;
+  justify-content: space-between;
+}
+.header .container .results div {
+  text-align: center;
+}
+.header .container .results div p {
+  font-size: 24px;
+  padding: 10px;
+}
+.header .container .results div span {
+  font-size: 28px;
+}
+.header .container .game_process_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5rem;
+}
+.header .container .game_process_section .gamer__side .gamer__img {
+  padding-bottom: 100px;
+}
+.header .container .game_process_section .gamer__side .btns button {
+  margin-right: 30px;
+  padding: 5px 25px;
+  font-size: 18px;
+  color: red;
+  outline: none;
+}
+.header .container .game_process_section .computer__side .computer__img {
+  transform: rotateY(180deg);
+  padding-bottom: 100px;
+}
+.header .container .game_process_section .computer__side h3 {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

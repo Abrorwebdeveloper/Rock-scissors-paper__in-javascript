@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Scissors Paper Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <h3 class="rounds">Round <span class="rounds__num">0</span></h3>
+
+            <div class="results">
+                <div>
+                    <p>GO'LIB</p>
+                    <span class="gamer__result">0</span>
+                </div>
+                <div>
+                    <p>DURRANG</p>
+                    <span class="ties__result">0</span>
+                </div>
+                <div>
+                    <p>G'OLIB</p>
+                    <span class="computer__result">0</span>
+                </div>
+            </div>
+
+            <div class="game_process_section">
+                <div class="gamer__side">
+                    <img src="./images/none.7969bf7a.png" class="gamer__img">
+                    <p class="gamer__name"></p>
+                    <div class="btns">
+                        <button class="rock__btn count__btn" onclick="counting()">
+                            rock
+                            <!-- <img class="rock__img" src="./images/rock.svg" alt=""> -->
+                        </button>
+                        <button class="paper__btn count__btn" onclick="counting()">
+                            paper
+                            <!-- <img src="./images/paper.svg" alt="" class="paper__img"> -->
+                        </button>
+                        <button class="scissors__btn count__btn" onclick="counting()">
+                            scissors
+                            <!-- <img src="./images/scissors.svg" alt="" class="scissors__img"> -->
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="computer__side">
+                    <img src="./images/none.7969bf7a.png" class="computer__img">
+                    <h3>Kompyuter</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="./app.js"></script>
+</body>
+</html>
