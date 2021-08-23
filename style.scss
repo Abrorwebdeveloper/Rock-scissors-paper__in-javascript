@@ -41,12 +41,14 @@
         .game_process_section {
             display: flex;
             justify-content: space-between;
-            align-items: center;
-            padding-top: 5rem;
+            // align-items: center;
+            padding-top: 4rem;
 
             .gamer__side{
                 .gamer__img {
                     padding-bottom: 100px;
+                    height: 260px;
+                    width: 350px;
                 }
 
                 .btns {
@@ -56,7 +58,18 @@
                         font-size: 18px;
                         color: red;
                         outline: none;
+                        border: none;
+                        background-color: rgb(219, 199, 199);
+                        border-radius: 3px;
+
+                        img {
+                            width: 70px;
+                        }
                     }
+                }
+
+                .gamer__name{
+                    padding-bottom: 20px;
                 }
             }
 
@@ -64,9 +77,11 @@
                 .computer__img {
                     transform: rotateY(180deg);
                     padding-bottom: 100px;
+                    height: 260px;
+                    width: 350px;
                 }
 
-                h3{
+                p{
                     text-align: center;
                 }
             }
